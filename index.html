@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fridge Feast | Online Recipe Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous"/>
+</head>
+<body>
+
+  <header>
+    <img id="logo" src="logo.png" alt="Fridge Feast Logo">
+    <h1>Fridge Feast</h1>
+
+    <div class="language">
+      <i class="fa-solid fa-globe"></i>
+      <select name="language" id="language">
+        <option value="English">English</option>
+        <option value="Marathi">Marathi</option>
+        <option value="Tamil">Tamil</option>
+        <option value="Hindi">Hindi</option>
+      </select>
+    </div>
+
+    <div class="mode">
+      <button id="darkModeBtn"><i class="fa-solid fa-moon"></i></button>
+    </div>
+
+    <div id="signup">Sign Up</div>
+  </header>
+
+
+  <main>
+
+    <section class="hero-section">
+      <div class="text">
+        <h1>Cook Smart, Waste Less!</h1>
+      </div>
+    </section>
+
+
+    <section class="hero2">
+      <div id="recipe1">Need recipe ideas with what’s in your fridge? 🍽️</div>
+      <p id="Create">Create my recipe</p>
+    </section>
+
+
+    <section class="features">
+      <h1>Features</h1>
+      <div class="row1">
+        <div class="item1">
+          <p id="icon">🔔</p>
+          <p class="mini-title">Daily Recipe Suggestion</p>
+          <p class="feature-text">Shows a new “Recipe of the Day” when users visit the site.</p>
+        </div>
+        <div class="item1">
+          <p id="icon">👨‍🍳</p>
+          <p class="mini-title">Chef’s Specials</p>
+          <p class="feature-text">Highlights trending or user-loved recipes each week.</p>
+        </div>
+        <div class="item1">
+          <p id="icon">🕒</p>
+          <p class="mini-title">Quick Cook Mode</p>
+          <p class="feature-text">Filters recipes based on how much time you have (e.g., 10-minute snacks, 30-minute meals).</p>
+        </div>
+      </div>
+      <br><br>
+      <div class="row1">
+        <div class="item1">
+          <p id="icon">❤️</p>
+          <p class="mini-title">Save Your Favorites</p>
+          <p class="feature-text">Lets users bookmark their favorite recipes for quick access later.</p>
+        </div>
+        <div class="item1">
+          <p id="icon">🥦</p>
+          <p class="mini-title">Healthy Alternatives</p>
+          <p class="feature-text">Recommends healthier ingredient swaps or low-calorie versions of your favorite dishes.</p>
+        </div>
+        <div class="item1">
+          <p id="icon">🍳</p>
+          <p class="mini-title">Smart Recipe Generator</p>
+          <p class="feature-text">Automatically suggests recipes using the ingredients you already have in your fridge.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="backtotop"><a href="#">Back to top</a></div>
+    <div class="footer-text">Made with ❤️ by Team Fridge Feast <br> “Cook Smart. Waste Less.”</div>
+    <div class="details">
+      <a href="#">About</a>
+      <a href="#">Privacy policy</a>
+      <a href="#">Terms & Service</a>
+      <a href="#">Contact</a>
+    </div>
+  </footer>
+  <div class="paytent">© 2025 Fridge Feast. All rights reserved.</div>
+
+  <div id="popup-container" class="popup-container">
+    <div class="popup-box">
+      <span id="close-popup">&times;</span>
+      <h2>Sign Up</h2>
+      <input type="text" placeholder="Enter your name">
+      <input type="email" placeholder="Enter your email">
+      <input type="password" placeholder="Enter your password">
+      <button id="submit-signup">Sign Up</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
